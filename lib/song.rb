@@ -5,7 +5,7 @@ class Song
 attr_accessor :name
 attr_reader :artist, :genre
   
-    def initialize(name)
+    def initialize(name, genre, songs)
       @name = name
       self.artist = artist if artist
       self.genre = genre if genre
