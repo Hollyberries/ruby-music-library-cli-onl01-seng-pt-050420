@@ -1,6 +1,6 @@
 class Music_Library_Controller
 
-def initialize()
+def initialize(path)
   
 end
 
