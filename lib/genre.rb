@@ -29,7 +29,7 @@ attr_reader :songs
     end
     
      def artists
-      songs.collect{|s| s.artist}.uniq
+      songs.map{|s| s.artist}.uniq
     end
     
 end
