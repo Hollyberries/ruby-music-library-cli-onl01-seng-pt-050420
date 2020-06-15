@@ -19,7 +19,7 @@ attr_reader :songs
     end
     
     def destroy_all
-      all.clear
+      self.all.clear
     end
     
     def self.create(name)
