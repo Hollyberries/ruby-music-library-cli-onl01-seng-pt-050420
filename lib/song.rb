@@ -7,6 +7,8 @@ attr_reader :artist, :genre
   
     def initialize(name)
       @name = name
+      self.artist = artist if artist
+      self.genre = genre if genre
     end
     
     def artist=(artist)
